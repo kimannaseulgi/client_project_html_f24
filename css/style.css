@@ -126,6 +126,7 @@ iframe{
 li{
     /* display: inline-block; */
     font-family: montserat, sans-serif;
+    font-weight: 200;
     text-align: center;
     line-height: 2em;
 }
@@ -269,7 +270,7 @@ footer img.copyright{
 }
 
 .inner-grid-item strong{
-    font-weight: bold;
+    font-weight: 400;
 }
 
 .inner-grid-item img{
