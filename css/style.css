@@ -217,7 +217,7 @@ footer img.copyright{
     grid-template-columns: 1fr;
     /* grid-gap: 2%; */
     padding: 2%;
-    margin: 2%;
+    margin: 1%;
 }
 
 .grid-item{
