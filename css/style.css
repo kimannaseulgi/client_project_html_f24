@@ -231,8 +231,8 @@ footer img.copyright{
 .inner-grid-container{
     display: grid;
     grid-template-columns: 1fr 1fr;
-/*     grid-gap: 8%; */
-    padding: 4%;
+    /* grid-gap: 8%; */
+    /* padding: 4%; */
     /* margin: 2%; */
     margin-bottom: 20%;
     align-items: start;
@@ -240,7 +240,7 @@ footer img.copyright{
 
 .inner-grid-item{
     text-align: center;
-    padding: 1em;
+    padding: 4%;
 }
 
 
