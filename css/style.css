@@ -243,7 +243,7 @@ footer img.copyright{
 }
 
 .inner-grid-item img{
-    text-align: left;
+    justify-content: flex-start;
 }
 
 .inner-grid-item:nth-child(1){
