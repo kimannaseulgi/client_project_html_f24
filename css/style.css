@@ -242,6 +242,9 @@ footer img.copyright{
     padding: 1em;
 }
 
+.inner-grid-item img{
+    justify-self: start;
+}
 
 .inner-grid-item:nth-child(1){
     grid-column: 1/2;
