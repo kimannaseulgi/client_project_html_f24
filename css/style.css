@@ -232,7 +232,7 @@ footer img.copyright{
     display: grid;
     grid-template-columns: 1fr 1fr;
     /* grid-gap: 8%; */
-    /* padding: 4%; */
+    padding: 2%;
     /* margin: 2%; */
     margin-bottom: 20%;
     align-items: start;
