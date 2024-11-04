@@ -19,6 +19,7 @@
                 <li><a href = "maize_and_blue_cupboard.html">Maize & Blue Cupboard</a></li>
                 <li><a href = "umsi_tutoring_and_academic_support.html">UMSI Tutoring & Academic Support</a></li>
                 <li><a href = "counseling_and_psychological_services.html">Counseling & Pyschological Services</a></li>
+                <li><a href="contact_me.html">Contact Me</a></li>
             </ul>
         </nav>
         <br>
@@ -29,15 +30,15 @@
             <h2>Welcome to the UM Grad Success Navigator</h2>
             <p>Your Comprehensive Guide to Resources for Graduate School Success!</p>
             <p>This guide is set up to help you be successul inside and outside of the classroom. This page will be a resource guide for physical health, mental wellbeing, and life apart from academics.</p>
-            <img class = "list-image" src = "images/fluent_health.png" alt = "Health Heart Icon">
             <h3>Physical Health</h3>
             <p>Learn where to go for health-related needs and services on campus.</p>
-            <img class = "list-image" src = "images/fluent_mental_health.png" alt = "Mental Health Brain Icon">
+            <img class = "list-image" src = "images/fluent_health.png" alt = "Health Heart Icon">
             <h3>Mental Health</h3>
             <p>Discover resources to prioritize mental wellbeing through counseling and other support systems.</p>
-            <img class = "list-image" src = "images/fluent_life.png" alt = "Life Outside Classroom Football Icon">
+            <img class = "list-image" src = "images/fluent_mental_health.png" alt = "Mental Health Brain Icon">
             <h3>Life Outside the Classroom</h3>
             <p>Develop a balance between school and personal life by finding campus activities and getting plugged in.</p>
+            <img class = "list-image" src = "images/fluent_life.png" alt = "Life Outside Classroom Football Icon">
         </div>
         <div class = "grid-item" tabindex = "0">
             <h2>Physical Health</h2>
@@ -90,6 +91,7 @@
                 <li class = "inner-grid-item"><strong>Community Engagement: </strong>Get involved with local volunteering opportunities and community service projects to make a positive impact.</li>
             </ul>
         </div>
+
     </main>
 
     <br>
@@ -100,7 +102,13 @@
         <p><a href="maize_and_blue_cupboard.html">Maize & Blue Cupboard </a></p>
         <p><a href="umsi_tutoring_and_academic_support.html">UMSI Tutoring & Academic Support </a></p>
         <p><a href="counseling_and_psychological_services.html">Counseling & Psychological Services </a></p>
-        <p>Copyright <img class = copyright src="images/copyright_white.png" alt="Copyright Symbol"> Anna Kim</p>
+        <p><a href="contact_me.html">Contact Me</a></p>
+        <p>Copyright <img class = copyright src="images/copyright_white.png" alt="Copyright Symbol"> <span id="year"></span> Anna Kim</p>
     </footer>
+
+    <script>
+        document.getElementById("year").innerHTML = new Date().getFullYear();
+    </script>
+    
 </body>
 </html>
